@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="alert_width_set">320dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="image_size_h">40dp</dimen>
+    <dimen name="image_size_w">100dp</dimen>
+</resources>

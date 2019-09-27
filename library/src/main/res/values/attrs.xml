@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="InputPreference">
+        <attr name="tipstring" format="string"></attr>
+        <attr name="titlestring" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="keyboard">
+        <attr name="xml" format="reference" />
+        <attr name="randomkeys" format="reference|boolean"></attr>
+    </declare-styleable>
+    <!-- dialog -->
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0" />
+            <enum name="y" value="1" />
+            <enum name="z" value="2" />
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction" />
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+    <!-- dialog -->
+
+    <!--带清除按钮的EditText-->
+    <declare-styleable name="EditTextField">
+        <!-- 清除按钮显示模式 -->
+        <attr name="clearButtonMode">
+            <!--不显示清空按钮-->
+            <enum name="never" value="0" />
+            <!--不为空，获得焦点与没有获得焦点都显示清空按钮-->
+            <enum name="always" value="1" />
+            <!--不为空，且在编辑状态时（及获得焦点）显示清空按钮-->
+            <enum name="whileEditing" value="2" />
+            <!--不为空，且不在编译状态时（焦点不在输入框上）显示清空按钮-->
+            <enum name="unlessEditing" value="3" />
+        </attr>
+        <attr name="clearButtonDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DropDownMenu">
+
+        <attr name="ddunderlineColor" format="color" />
+        <attr name="dddividerColor" format="color" />
+        <attr name="ddtextSelectedColor" format="color" />
+        <attr name="ddtextUnselectedColor" format="color" />
+        <attr name="ddmenuBackgroundColor" format="color" />
+        <attr name="ddmaskColor" format="color" />
+        <attr name="ddmenuTextSize" format="dimension" />
+        <attr name="ddmenuSelectedIcon" format="reference" />
+        <attr name="ddmenuUnselectedIcon" format="reference" />
+        <attr name="ddmenuMenuHeightPercent" format="float" />
+    </declare-styleable>
+
+    <!--旋转登录控件-->
+    <declare-styleable name="ATLoginButton">
+        <attr name="button_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="circle_loading_color" format="color" />
+        <attr name="failed_button_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="circle_loading_width" format="dimension" />
+        <attr name="login_text" format="string" />
+        <attr name="failed_text" format="string" />
+        <attr name="failed_text_color" format="color" />
+        <attr name="button_normal_color" format="color" />
+        <attr name="button_normal_stroke_color" format="color" />
+        <attr name="text_normal_color" format="color" />
+        <attr name="button_normal_stroke_width" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="NineGridView">
+        <attr name="ngv_singleImageSize" format="dimension" />
+        <attr name="ngv_singleImageRatio" format="float" />
+        <attr name="ngv_gridSpacing" format="dimension" />
+        <attr name="ngv_maxSize" format="integer" />
+        <attr name="ngv_mode" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="grid" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--搜索的流式布局-->
+    <declare-styleable name="FlowLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLine" format="integer" />
+    </declare-styleable>
+
+
+    <!--自定义的圈子类型选择控件-->
+    <declare-styleable name="CustomCheckTextView">
+        <attr name="view_text" format="string" />
+
+    </declare-styleable>
+
+    <!--水平滚轮控件-->
+    <declare-styleable name="HorizontalScrollPickerView">
+        <attr name="hspvTextSize" format="dimension" />
+        <attr name="hspvTextColor" format="color" />
+        <attr name="hspvTextPadding" format="dimension" />
+        <attr name="hspvTextMaxScale" format="float" />
+        <attr name="hspvTextMinAlpha" format="float" />
+        <attr name="hspvRecycleMode" format="boolean" />
+        <attr name="hspvMaxShowNum" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="EasyPickerView">
+        <attr name="epvTextSize" format="dimension" />
+        <attr name="epvTextColor" format="color" />
+        <attr name="epvTextPadding" format="dimension" />
+        <attr name="epvTextMaxScale" format="float" />
+        <attr name="epvTextMinAlpha" format="float" />
+        <attr name="epvRecycleMode" format="boolean" />
+        <attr name="epvMaxShowNum" format="integer" />
+    </declare-styleable>
+    <!--自定义的圈子简介输入-->
+    <declare-styleable name="CustomMultiEditText">
+        <attr name="text" format="string" />
+
+    </declare-styleable>
+
+    <!--半圆进度条-->
+    <declare-styleable name="ColorArcProgressBar">
+        <attr name="back_color" format="color" />
+        <attr name="front_color1" format="color" />
+        <attr name="front_color2" format="color" />
+        <attr name="front_color3" format="color" />
+        <attr name="back_width" format="dimension" />
+        <attr name="front_width" format="dimension" />
+        <attr name="is_need_title" format="boolean" />
+        <attr name="is_need_content" format="boolean" />
+        <attr name="is_need_unit" format="boolean" />
+        <attr name="is_need_dial" format="boolean" />
+        <attr name="string_title" format="string" />
+        <attr name="string_unit" format="string" />
+        <attr name="total_engle" format="integer" />
+        <attr name="current_value" format="float" />
+        <attr name="max_value" format="float" />
+    </declare-styleable>
+    <!--可换行的RadioGroup-->
+    <declare-styleable name="WrapRadioGroup">
+        <attr name="checkedButton" format="integer" />
+        <attr name="childMarginLeft" format="dimension" />
+        <attr name="childMarginRight" format="dimension" />
+        <attr name="childMarginTop" format="dimension" />
+        <attr name="childMarginBottom" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RotateTextView">
+        <attr name="degree" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!--可折叠的TV-->
+    <declare-styleable name="CollapsibleTextView">
+        <attr name="suffixColor" format="color" />
+        <attr name="collapsedLines" format="integer" />
+        <attr name="collapsedText" format="string" />
+        <attr name="expandedText" format="string" />
+        <attr name="suffixTrigger" format="boolean" />
+    </declare-styleable>
+</resources>
